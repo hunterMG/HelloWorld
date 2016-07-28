@@ -15,6 +15,13 @@ public:
     
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
+private:
+	int theRandomNumber;
+	cocos2d::Size visibleSize;
+	cocos2d::TextFieldTTF *tf;
+	cocos2d::Label *submitBtn,*messageLable;
+	void addListeners();
+	void buildUI();
 };
 
 #endif // __HELLOWORLD_SCENE_H__
