@@ -11,6 +11,14 @@
 # Generated files
 bin/
 gen/
+cocos2D/
+proj.android/
+proj.android-studio/
+proj.ios_mac/
+proj.linux/
+proj.win8.1-universal/
+proj.win10/
+proj.win32/
 
 # Gradle files
 .gradle/
